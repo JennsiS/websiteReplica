@@ -1,0 +1,28 @@
+body {
+    color: #ffffff;
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    text-rendering: optimizeLegibility !important;
+}
+
+.section--header{
+    height: 100%;
+}
+
+.moontopia-title{
+    position: absolute;
+    text-align: center;
+    font-size: 14vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    font-weight: 700;
+    z-index: 2;
+    background: -webkit-linear-gradient(#ffffff, #bec0d8);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
