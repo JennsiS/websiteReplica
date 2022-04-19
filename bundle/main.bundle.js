@@ -10,33 +10,63 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/components/App.js":
-/*!*******************************!*\
-  !*** ./src/components/App.js ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_moon_large_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/moon-large.jpg */ \"./src/img/moon-large.jpg\");\n\n\nfunction App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"section--header\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h1\", {\n    className: \"moontopia-title\"\n  }, \"MOONTOPIA\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _img_moon_large_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n    alt: \"\"\n  }));\n}\n\n//# sourceURL=webpack://websitereplica/./src/components/App.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/App */ \"./src/components/App.js\");\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/styles.css */ \"./src/css/styles.css\");\n\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_App__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.getElementById('app'));\n\n//# sourceURL=webpack://websitereplica/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/img/moon-large.jpg":
+/***/ "./src/components/App.jsx":
 /*!********************************!*\
-  !*** ./src/img/moon-large.jpg ***!
+  !*** ./src/components/App.jsx ***!
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"36544050695bbc58a7f77db4dd90a4bd.jpg\");\n\n//# sourceURL=webpack://websitereplica/./src/img/moon-large.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_moon_large_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/moon-large.png */ \"./src/img/moon-large.png\");\n/* harmony import */ var _img_scene_earth_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/scene-earth.png */ \"./src/img/scene-earth.png\");\n/* harmony import */ var _img_headerStars_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/headerStars.jpg */ \"./src/img/headerStars.jpg\");\n\n\n\n\nfunction App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"header-container\",\n    style: {\n      backgroundImage: \"url(\".concat(_img_headerStars_jpg__WEBPACK_IMPORTED_MODULE_3__[\"default\"], \")\")\n    }\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"initial-header\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h1\", {\n    className: \"moontopia-title\"\n  }, \"MOONTOPIA\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _img_moon_large_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n    alt: \"\",\n    className: \"moon-image\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _img_scene_earth_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n    alt: \"\",\n    className: \"earth-image-header\"\n  })));\n}\n\n//# sourceURL=webpack://websitereplica/./src/components/App.jsx?");
+
+/***/ }),
+
+/***/ "./src/index.jsx":
+/*!***********************!*\
+  !*** ./src/index.jsx ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/App */ \"./src/components/App.jsx\");\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/styles.css */ \"./src/css/styles.css\");\n/* harmony import */ var _img_starBackground_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/starBackground.jpg */ \"./src/img/starBackground.jpg\");\n\n\n\n\n\ndocument.body.style.background = \"url(\".concat(_img_starBackground_jpg__WEBPACK_IMPORTED_MODULE_4__[\"default\"], \")\");\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_App__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.body);\n\n//# sourceURL=webpack://websitereplica/./src/index.jsx?");
+
+/***/ }),
+
+/***/ "./src/img/headerStars.jpg":
+/*!*********************************!*\
+  !*** ./src/img/headerStars.jpg ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"7e53137bbd590793fea1da9918c1147b.jpg\");\n\n//# sourceURL=webpack://websitereplica/./src/img/headerStars.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/moon-large.png":
+/*!********************************!*\
+  !*** ./src/img/moon-large.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"99c2d1bcc310b03321f2f3df1f625169.png\");\n\n//# sourceURL=webpack://websitereplica/./src/img/moon-large.png?");
+
+/***/ }),
+
+/***/ "./src/img/scene-earth.png":
+/*!*********************************!*\
+  !*** ./src/img/scene-earth.png ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b3f53761cc7e2b25ca1f06b0376638d5.png\");\n\n//# sourceURL=webpack://websitereplica/./src/img/scene-earth.png?");
+
+/***/ }),
+
+/***/ "./src/img/starBackground.jpg":
+/*!************************************!*\
+  !*** ./src/img/starBackground.jpg ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b9ebd0afab7c48b21564562dd91d17a6.jpg\");\n\n//# sourceURL=webpack://websitereplica/./src/img/starBackground.jpg?");
 
 /***/ }),
 
@@ -226,7 +256,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.jsx");
 /******/ 	
 /******/ })()
 ;
