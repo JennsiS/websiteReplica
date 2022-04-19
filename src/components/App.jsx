@@ -72,8 +72,8 @@ export default function App() {
         </div>
       </div>
       <div id="ch2" className="blue-section">
-        <div className="div-section">
-          <div className="ch2-header">
+        <div className="div-section-ch2">
+          <div className="article-column" id="ch2-header">
             <h2>02. CHAPTER TWO</h2>
             <h3>WHAT WOULD IT BE LIKE TO LIVE ON THE MOON?</h3>
           </div>

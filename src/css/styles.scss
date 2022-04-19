@@ -1,6 +1,10 @@
+$font-stack: Century Gothic, sans-serif;
+$white: #ffffff;
+$lightgray: #e5dfdd;
+
 body {
-    color: #ffffff;
-    font-family: Century Gothic, sans-serif;
+    color: $white;
+    font-family: $font-stack;
     font-weight: 400;
     font-style: normal;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
@@ -33,6 +37,7 @@ h3 {
 }
 p {
     line-height: 200%;
+    color: $lightgray;
 }
 
 img {
@@ -90,7 +95,7 @@ img {
     display: block;
     font-weight: 700;
     z-index: 2;
-    background: -webkit-linear-gradient(#ffffff, #bec0d8);
+    background: -webkit-linear-gradient($white, #bec0d8);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -273,6 +278,10 @@ img {
     flex-basis: 0;
 }
 
+.article-column h3 {
+    margin: 0 0 1rem;
+}
+
 .article-container{
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -290,4 +299,8 @@ img {
     padding-top: 4px;
     padding-right: 8px;
     padding-left: 3px;
+}
+
+.div-section-ch2{
+    padding: 4rem 2rem;
 }
