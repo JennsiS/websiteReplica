@@ -1,6 +1,7 @@
 $font-stack: Century Gothic, sans-serif;
 $white: #ffffff;
 $lightgray: #e5dfdd;
+$borderblack: rgba(255, 255, 255, 0.2);
 
 body {
     color: $white;
@@ -167,7 +168,7 @@ img {
     padding: 1rem 0 0;
     max-width: 40%;
     position: absolute;
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid $borderblack;
     z-index: 9997;
 }
 
@@ -179,7 +180,7 @@ img {
 }
 
 .ch1-text {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid $borderblack
 }
 
 .ch1-scroll{
@@ -266,6 +267,19 @@ img {
     pointer-events: none;
 }
 
+.article-header{
+    max-width: 450px;
+    padding: 0 4rem;
+    min-width: 50%;
+    -webkit-box-pack: start;
+    -webkit-box-flex: 1;
+    box-sizing: border-box;
+    margin: 0;
+    h3 {
+        margin: 0 0 1rem;
+    }
+}
+
 .article-column {
     padding: 0 4rem;
     min-width: 50%;
@@ -301,6 +315,114 @@ img {
     padding-left: 3px;
 }
 
-.div-section-ch2{
+.black-section{
+    background-color: #0f1011;
+    padding: 30rem 2rem;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-flex{
+    height: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+
+.lava-containers{
+    height: 100%;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+}
+
+.article-right{
+    right: 5%;
+    position: absolute;
+    width: 45vw;
+    z-index: 0;
+}
+
+.article-left{
+    left: 5%;
+    padding: 1rem 0 0;
+    max-width: 40%;
+    position: absolute;
+    border-left: 1px solid $borderblack;
+}
+
+.article-scroll{
+    border-bottom: 1px solid $borderblack;
+}
+
+.article-scroll > h2 {
+    padding-left: 2rem;
+    position: relative;
+    padding-bottom: 2rem;
+    margin: 0;  
+}
+
+.scrollable-text{
+    overflow: hidden !important;
+    overflow-anchor: none;
+    touch-action: auto;
+    margin-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 10%;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.lava-tubes{
+    height: 100vh;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    margin-top: 55px;
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.lava-tubes > img {
+    width: 22vw;
+    position: absolute;
+    animation: float 2s infinite alternate ease-in-out;
+
+}
+
+.lava1 {
+    margin-top: -15vh;
+    left: 0;
+    z-index: 1;
+}
+
+.lava2 {
+    z-index: 2;
+}
+
+.lava3 {
+    margin-top: 15vh;
+    right: 0;
+    z-index: 3;
+}
+
+.lava-black{
+    background-color: #0f1011;
     padding: 4rem 2rem;
 }

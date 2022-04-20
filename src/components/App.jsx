@@ -3,6 +3,9 @@ import moonImg from '../img/moon-large.png';
 import fullmoonImg from '../img/moon.png';
 import earthImg from '../img/scene-earth.png';
 import starsBackground from '../img/headerStars.jpg';
+import lava1 from '../img/lava1.png';
+import lava2 from '../img/lava2.png';
+import lava3 from '../img/lava3.png';
 
 export default function App() {
   return (
@@ -72,8 +75,8 @@ export default function App() {
         </div>
       </div>
       <div id="ch2" className="blue-section">
-        <div className="div-section-ch2">
-          <div className="article-column" id="ch2-header">
+        <div className="container">
+          <div className="article-header" id="ch2-header">
             <h2>02. CHAPTER TWO</h2>
             <h3>WHAT WOULD IT BE LIKE TO LIVE ON THE MOON?</h3>
           </div>
@@ -130,6 +133,48 @@ export default function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="ch3" className="lava-black">
+        <div className="section-flex">
+          <div className="article-left">
+            <div className="article-scroll">
+              <h2>03. CHAPTER THREE</h2>
+              <div className="scrollable-text">
+                <h3>LAVA TUBE FORMATION</h3>
+                <p>
+                  Lava flows from volcanic eruptions and becomes channelled into streams.
+                </p>
+                <p>
+                  The overflow of these streams often cools and solidifies while the rest of
+                  the lava continues running; this creates stacked layers of rock around the
+                  lava flow.
+                </p>
+                <p>
+                  After a long period of time the lava begins to melt down into the ground,
+                  creating a taller tube shape which becomes narrower.
+                </p>
+                <p>
+                  A solid crust forms overhead and encases the tube. The lava within the tube
+                  is now well insulated, meaning it can travel for long distances and create
+                  incredibly long lava tubes.
+                </p>
+                <p>
+                  Once the eruption is over, the flows harden and these tubes often become caves.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="lava-containers">
+            <div className="article-right">
+              <div className="lava-tubes">
+                <img src={lava1} alt="" className="lava1" />
+                <img src={lava2} alt="" className="lava2" />
+                <img src={lava3} alt="" className="lava3" />
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </>
   );
