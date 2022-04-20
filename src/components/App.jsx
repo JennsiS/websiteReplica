@@ -6,6 +6,7 @@ import starsBackground from '../img/headerStars.jpg';
 import lava1 from '../img/lava1.png';
 import lava2 from '../img/lava2.png';
 import lava3 from '../img/lava3.png';
+import surfaceImg from '../img/surface.jpg';
 
 export default function App() {
   return (
@@ -174,7 +175,88 @@ export default function App() {
             </div>
           </div>
         </div>
+      </div>
 
+      <div id="ch4" className="div-section">
+        <div className="flex-container">
+          <div className="ch1-right">
+            <div className="ch1-text">
+              <h2>04. CHAPTER FOUR</h2>
+              <div className="ch1-scroll">
+                <h3>What would our colony look like?</h3>
+                <p>
+                  Cosmic radiation, micrometeorites, lack of atmosphere and extreme
+                  temperatures are not only reasons why we would have to live underground,
+                  they would also be the biggest obstacles for those trying to carry out
+                  tasks on the surface of the Moon.
+                </p>
+                <p>
+                  As exciting as living on the Moon may sound, it would mean a massive
+                  adjustment to the way we live. Members of the colony would be confined to
+                  a relatively small city space, with a small population. The inability to
+                  leave the colony without great preparation and risk, could cause colony
+                  members to feel claustrophobic meaning there may be opportunities for members
+                  of the colony to visit their families on Earth and vice versa.
+                </p>
+                <p>
+                  Space X are pioneering space tourism with reusable launch systems, meaning
+                  there may opportunities for members of the colony to visit their families
+                  on Earth and vice versa.
+                </p>
+                <p>
+                  The Moon’s day is a month, meaning that for 14 days it is bright daylight
+                  and then for the next 14 days it is pitch black. In order to stop everyone
+                  on the colony struggling with their sleeping patterns, the light would be
+                  regulated within the lava tube to replicate Earth’s day cycle.
+                </p>
+                <p>
+                  The artificial sunlight tubes would provide different types of light
+                  throughout the day and help aid sleeping by mimicking sunrises and sunsets.
+                  There would evenbe the ‘golden hour’ in the evening for the more selfie
+                  conscious among the colony.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="ch1-left caption">
+            {/* <div className="hotspots">
+              hotspots
+            </div> */}
+            <img src={surfaceImg} alt="" className="surface-img" />
+          </div>
+        </div>
+      </div>
+
+      <div id="ch5" className="blue-section">
+        <div className="flex-container">
+          <div className="article-left">
+            <div className="article-scroll">
+              <h2>j</h2>
+              <div className="scrollable-text">
+                <p>
+                  We would have the opportunity to build a city from scratch and we could
+                  draw on our experiences across the world to create a more harmonious
+                  living space. The colony would have a large park in the centre, for
+                  aesthetic and practical reasons. It would be a recreation ground for the
+                  citizens of the colony and the trees and plants would help
+                  produce oxygen for the citizens.
+                </p>
+                <p>
+                  Buildings facing the large park would be arranged with shortest at the
+                  front, getting progressively taller towards the back, as the lighting tubes
+                  creating the artificial sunlight would run down the middle of the city.
+                  This feature would also enable as many people as possible to see the greenery.
+                </p>
+                <p>
+                  There would be little to no transport on the Moon colony, because of the
+                  relatively small size of the city we would mostly travel around by walking.
+                  This would help to reduce the amount of energy we required and we could use
+                  electric pods of bicycles.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
