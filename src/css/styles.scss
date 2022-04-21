@@ -424,5 +424,100 @@ img {
 
 .lava-black{
     background-color: #0f1011;
+    padding: 30rem 2rem;
+}
+
+.ch1-scroll::after{
+    content: "";
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.article-scroll::after{
+    opacity: 1;
+    background: linear-gradient(to bottom, rgba(15, 16, 17, 0) 0%, rgba(15, 16, 17, 1) 100%);
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    height: 10%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
++.lava-containers{
+    height: 100%;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+
+.ch1-left > img {
+    width: 100%;
+    margin-top: -35%;
+}
+
+.caption::after{
+    content: "SELECT A HOTSPOT TO VIEW MORE INFO";
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    max-width: 320px;
+    padding: 15px;
+    font-size: .8rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    bottom: -155px;
+    left: 0;
+    right: 0;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+.img-ch5 > img {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.section{
     padding: 4rem 2rem;
+}
+
+.quote-box{
+    max-width: 80%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote-marks{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+    -webkit-box-pack: center;
+    display: flex;
+}
+
+.text-highlight{
+    color: #b1f0d3;
+}
+
+.authorImg {
+    font-size: 1.5rem;
+    max-width: 150px;
+    border-radius: 50%;
 }

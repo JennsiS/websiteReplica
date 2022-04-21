@@ -1,25 +1,28 @@
-// import React, { useEffect } from 'react';
 import React from 'react';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
-import moonImg from '../img/moon-large.png';
+// import moonImg from '../img/moon-large.png';
 import fullmoonImg from '../img/moon.png';
 import earthImg from '../img/scene-earth.png';
-import starsBackground from '../img/headerStars.jpg';
+// import starsBackground from '../img/headerStars.jpg';
 import lava1 from '../img/lava1.png';
 import lava2 from '../img/lava2.png';
 import lava3 from '../img/lava3.png';
+import surfaceImg from '../img/surface.jpg';
+import cityImg from '../img/city.jpg';
+import quoteImg from '../img/quote-marks.svg';
+import authorImg from '../img/quote-roundel.jpg';
+import Header from './Header';
 
 export default function App() {
   return (
     <>
-      <div className="header-container" style={{ backgroundImage: `url(${starsBackground})` }}>
+      {/* <div className="header-container" style={{ backgroundImage: `url(${starsBackground})` }}>
         <div className="initial-header">
           <h1 className="moontopia-title">MOONTOPIA</h1>
           <img src={moonImg} alt="" className="moon-image" />
           <img src={earthImg} alt="" className="earth-image-header" />
         </div>
-      </div>
+      </div> */}
+      <Header />
       <div className="black-section">
         <div className="black-container">
           <div className="black-section-text">
@@ -137,6 +140,7 @@ export default function App() {
           </div>
         </div>
       </div>
+
       <div id="ch3" className="lava-black">
         <div className="section-flex">
           <div className="article-left">
@@ -178,6 +182,112 @@ export default function App() {
           </div>
         </div>
       </div>
+
+      <div id="ch4" className="div-section">
+        <div className="flex-container">
+          <div className="ch1-right">
+            <div className="ch1-text">
+              <h2>04. CHAPTER FOUR</h2>
+              <div className="ch1-scroll">
+                <h3>What would our colony look like?</h3>
+                <p>
+                  Cosmic radiation, micrometeorites, lack of atmosphere and extreme
+                  temperatures are not only reasons why we would have to live underground,
+                  they would also be the biggest obstacles for those trying to carry out
+                  tasks on the surface of the Moon.
+                </p>
+                <p>
+                  As exciting as living on the Moon may sound, it would mean a massive
+                  adjustment to the way we live. Members of the colony would be confined to
+                  a relatively small city space, with a small population. The inability to
+                  leave the colony without great preparation and risk, could cause colony
+                  members to feel claustrophobic meaning there may be opportunities for members
+                  of the colony to visit their families on Earth and vice versa.
+                </p>
+                <p>
+                  Space X are pioneering space tourism with reusable launch systems, meaning
+                  there may opportunities for members of the colony to visit their families
+                  on Earth and vice versa.
+                </p>
+                <p>
+                  The Moon’s day is a month, meaning that for 14 days it is bright daylight
+                  and then for the next 14 days it is pitch black. In order to stop everyone
+                  on the colony struggling with their sleeping patterns, the light would be
+                  regulated within the lava tube to replicate Earth’s day cycle.
+                </p>
+                <p>
+                  The artificial sunlight tubes would provide different types of light
+                  throughout the day and help aid sleeping by mimicking sunrises and sunsets.
+                  There would evenbe the ‘golden hour’ in the evening for the more selfie
+                  conscious among the colony.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="ch1-left caption">
+            <img src={surfaceImg} alt="" className="surface-img" />
+          </div>
+        </div>
+      </div>
+
+      <div id="ch5" className="blue-section">
+        <div className="flex-container">
+          <div className="article-left">
+            <div className="article-scroll">
+              <h2>j</h2>
+              <div className="scrollable-text">
+                <p>
+                  We would have the opportunity to build a city from scratch and we could
+                  draw on our experiences across the world to create a more harmonious
+                  living space. The colony would have a large park in the centre, for
+                  aesthetic and practical reasons. It would be a recreation ground for the
+                  citizens of the colony and the trees and plants would help
+                  produce oxygen for the citizens.
+                </p>
+                <p>
+                  Buildings facing the large park would be arranged with shortest at the
+                  front, getting progressively taller towards the back, as the lighting tubes
+                  creating the artificial sunlight would run down the middle of the city.
+                  This feature would also enable as many people as possible to see the greenery.
+                </p>
+                <p>
+                  There would be little to no transport on the Moon colony, because of the
+                  relatively small size of the city we would mostly travel around by walking.
+                  This would help to reduce the amount of energy we required and we could use
+                  electric pods of bicycles.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="elements img-ch5">
+            <img src={cityImg} alt="" className="city-img" />
+          </div>
+        </div>
+
+        <div className="section" id="quote">
+          <div className="container">
+            <div className="quote-box">
+              <div className="quote-marks">
+                <img src={quoteImg} alt="" className="quote-img" />
+              </div>
+              <div className="quote-text">
+                As our understanding of space advances the opportunity
+                to start a new world becomes ever more possible.
+                Moving home or to another country is already
+                incredibly exciting,. The challenges and problems would be new and hard but the mind
+                boggles at the potential opportunities and what the human race could achieve
+                if we take this next step.
+                <span className="text-highlight">imagine what it would be like to move to an entirely different habitat</span>
+              </div>
+              <div className="author-img">
+                <img src={authorImg} alt="" className="authorImg" />
+                <h4>Prof. Lewis Dartnell</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
+
   );
 }
