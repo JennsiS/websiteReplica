@@ -625,3 +625,43 @@ img {
 		transform: translatey(0px);
 	}
 }
+
+.nav{
+    display: none;
+    right: 0;
+    width: 50vw;
+    position: fixed;
+    background-color: #f7fafb;
+    height: 100vh;
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+    overflow: auto;
+    z-index: 999;
+    
+    .close{
+        top: 50px;
+        right: 50px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        padding: 12px;
+        text-align: center;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 1);
+        color: black;
+        z-index: 999;
+        font-weight: 400;
+        transition: transform 0.5s ease;
+    }
+
+    .close:hover{
+        transform: scale(2);
+    }
+
+    .menu-selections{
+        h3:hover {
+            color: #b1f0d3;
+
+        }
+    }
+}

@@ -13,12 +13,24 @@ import twitterLogo from '../img/tw.svg';
 import whatssapLogo from '../img/wa.svg';
 import Header from './Header';
 import Quote from './Quote';
+import Menu from './sideNav';
 import '../css/styles.scss';
 
 export default function App() {
+  function showMenu() {
+    document.getElementById('menu').style.display = 'block';
+  }
+
   return (
     <>
+      <Menu />
       <Header />
+      <div className="menu-button">
+        <button type="button" onClick={showMenu}>
+          menu
+        </button>
+      </div>
+
       <div className="black-section">
         <div className="black-container">
           <div className="black-section-text">
