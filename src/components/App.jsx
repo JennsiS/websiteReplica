@@ -14,11 +14,15 @@ import whatssapLogo from '../img/wa.svg';
 import Header from './Header';
 import Quote from './Quote';
 import Menu from './sideNav';
+import Bibliography from './bibliography';
 import '../css/styles.scss';
 
 export default function App() {
   function showMenu() {
     document.getElementById('menu').style.display = 'block';
+  }
+  function showBibliography() {
+    document.getElementById('bibliography').style.display = 'block';
   }
 
   return (
@@ -277,8 +281,11 @@ export default function App() {
 
       <div className="moon-man">
         <img alt="" src={moonMan} />
-        <strong data-toggle="modal" data-target="#myModal" className="sources">SOURCES +</strong>
+        <button onClick={showBibliography} type="button">
+          <strong data-toggle="modal" data-target="#myModal" className="sources">SOURCES +</strong>
+        </button>
       </div>
+      <Bibliography />
 
       <div id="ch6" className="ch6-section">
         <div className="container">
