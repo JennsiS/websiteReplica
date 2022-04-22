@@ -24,7 +24,8 @@ module.exports = {
     rules: [
       {
         test: /\.s[ac]ss$/i,
-        use: ['style-loader', 'raw-loader', 'css-loader', 'sass-loader'],
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+        sideEffects: true,
       },
       {
         test: /\.svg$/,

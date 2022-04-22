@@ -1,8 +1,6 @@
 import React from 'react';
-// import moonImg from '../img/moon-large.png';
 import fullmoonImg from '../img/moon.png';
 import earthImg from '../img/scene-earth.png';
-// import starsBackground from '../img/headerStars.jpg';
 import lava1 from '../img/lava1.png';
 import lava2 from '../img/lava2.png';
 import lava3 from '../img/lava3.png';
@@ -11,6 +9,7 @@ import cityImg from '../img/city.jpg';
 import quoteImg from '../img/quote-marks.svg';
 import authorImg from '../img/quote-roundel.jpg';
 import Header from './Header';
+import '../css/styles.scss';
 
 export default function App() {
   return (

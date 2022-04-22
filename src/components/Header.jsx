@@ -2,6 +2,7 @@ import React from 'react';
 import moonImg from '../img/moon-large.png';
 import earthImg from '../img/scene-earth.png';
 import starsBackground from '../img/headerStars.jpg';
+import '../css/styles.scss';
 
 export default function Header() {
   return (
