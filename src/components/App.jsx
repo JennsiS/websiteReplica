@@ -6,8 +6,11 @@ import lava2 from '../img/lava2.png';
 import lava3 from '../img/lava3.png';
 import surfaceImg from '../img/surface.jpg';
 import cityImg from '../img/city.jpg';
-// import quoteImg from '../img/quote-marks.svg';
-// import authorImg from '../img/quote-roundel.jpg';
+import moonMan from '../img/spaceman.jpg';
+import hillarysLogo from '../img/hillarys-logo.svg';
+import fbLogo from '../img/fb.svg';
+import twitterLogo from '../img/tw.svg';
+import whatssapLogo from '../img/wa.svg';
 import Header from './Header';
 import Quote from './Quote';
 import '../css/styles.scss';
@@ -15,13 +18,6 @@ import '../css/styles.scss';
 export default function App() {
   return (
     <>
-      {/* <div className="header-container" style={{ backgroundImage: `url(${starsBackground})` }}>
-        <div className="initial-header">
-          <h1 className="moontopia-title">MOONTOPIA</h1>
-          <img src={moonImg} alt="" className="moon-image" />
-          <img src={earthImg} alt="" className="earth-image-header" />
-        </div>
-      </div> */}
       <Header />
       <div className="black-section">
         <div className="black-container">
@@ -172,7 +168,7 @@ export default function App() {
             </div>
           </div>
           <div className="lava-containers">
-            <div className="article-right">
+            <div className="article-right" data-aos="fade-in">
               <div className="lava-tubes">
                 <img src={lava1} alt="" className="lava1" />
                 <img src={lava2} alt="" className="lava2" />
@@ -234,7 +230,7 @@ export default function App() {
         <div className="flex-container">
           <div className="article-left">
             <div className="article-scroll">
-              <h2>j</h2>
+              <h2> </h2>
               <div className="scrollable-text">
                 <p>
                   We would have the opportunity to build a city from scratch and we could
@@ -259,36 +255,45 @@ export default function App() {
               </div>
             </div>
           </div>
-          <div className="elements img-ch5">
+          <div className="city img-ch5">
             <img src={cityImg} alt="" className="city-img" />
           </div>
         </div>
       </div>
+
       <Quote />
 
-      {/* <div className="section" id="quote">
+      <div className="moon-man">
+        <img alt="" src={moonMan} />
+        <strong data-toggle="modal" data-target="#myModal" className="sources">SOURCES +</strong>
+      </div>
+
+      <div id="ch6" className="ch6-section">
         <div className="container">
-          <div className="quote-box">
-            <div className="quote-marks">
-              <img src={quoteImg} alt="" className="quote-img" />
-            </div>
-            <div className="quote-text">
-              As our understanding of space advances the opportunity
-              to start a new world becomes ever more possible.
-              Moving home or to another country is already
-              incredibly exciting,. The challenges and problems would be new and hard but the mind
-              boggles at the potential opportunities and what the human race could achieve
-              if we take this next step.
-              <span className="text-highlight">imagine what it would be like to move ç
-              to an entirely different habitat</span>
-            </div>
-            <div className="author-img">
-              <img src={authorImg} alt="" className="authorImg" />
-              <h4>Prof. Lewis Dartnell</h4>
-            </div>
+          <div className="article-container">
+            <footer>
+              <div className="external-links">
+                <img alt="" src={hillarysLogo} className="hillaryLogo" />
+                <p>
+                  Moontopia comes courtesy of Hillarys, the interiors expert inspiring the
+                  nation with beautiful blinds,
+                  <a href="https://www.hillarys.co.uk/curtains/" rel="noreferrer" className="curtains"> curtains </a>
+                  and shutters.
+                </p>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.hillarys.co.uk/static/moontopia/" className="social-media">
+                  <img src={fbLogo} alt="" />
+                </a>
+                <a href="https://twitter.com/home?status=In-home%20experts%20at%20Hillarys%20have%20teamed%20up%20with%20Professor%20Lewis%20Dartnell,%20University%20of%20Westminster,%20to%20imagine%20what%20life%20might%20be%20like%20150%20years%20from%20now,%20if%20we%20colonised%20the%20Moon.%20https://www.hillarys.co.uk/static/moontopia/" className="social-media">
+                  <img src={twitterLogo} alt="" />
+                </a>
+                <a href="whatsapp://send?text=In-home%20experts%20at%20Hillarys%20have%20teamed%20up%20with%20Professor%20Lewis%20Dartnell,%20University%20of%20Westminster,%20to%20imagine%20what%20life%20might%20be%20like%20150%20years%20from%20now,%20if%20we%20colonised%20the%20Moon.%20https://www.hillarys.co.uk/static/moontopia/" className="social-media">
+                  <img src={whatssapLogo} alt="" />
+                </a>
+              </div>
+            </footer>
           </div>
         </div>
-      </div> */}
+      </div>
 
     </>
 
