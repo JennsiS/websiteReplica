@@ -6,9 +6,10 @@ import lava2 from '../img/lava2.png';
 import lava3 from '../img/lava3.png';
 import surfaceImg from '../img/surface.jpg';
 import cityImg from '../img/city.jpg';
-import quoteImg from '../img/quote-marks.svg';
-import authorImg from '../img/quote-roundel.jpg';
+// import quoteImg from '../img/quote-marks.svg';
+// import authorImg from '../img/quote-roundel.jpg';
 import Header from './Header';
+import Quote from './Quote';
 import '../css/styles.scss';
 
 export default function App() {
@@ -262,30 +263,33 @@ export default function App() {
             <img src={cityImg} alt="" className="city-img" />
           </div>
         </div>
+      </div>
+      <Quote />
 
-        <div className="section" id="quote">
-          <div className="container">
-            <div className="quote-box">
-              <div className="quote-marks">
-                <img src={quoteImg} alt="" className="quote-img" />
-              </div>
-              <div className="quote-text">
-                As our understanding of space advances the opportunity
-                to start a new world becomes ever more possible.
-                Moving home or to another country is already
-                incredibly exciting,. The challenges and problems would be new and hard but the mind
-                boggles at the potential opportunities and what the human race could achieve
-                if we take this next step.
-                <span className="text-highlight">imagine what it would be like to move to an entirely different habitat</span>
-              </div>
-              <div className="author-img">
-                <img src={authorImg} alt="" className="authorImg" />
-                <h4>Prof. Lewis Dartnell</h4>
-              </div>
+      {/* <div className="section" id="quote">
+        <div className="container">
+          <div className="quote-box">
+            <div className="quote-marks">
+              <img src={quoteImg} alt="" className="quote-img" />
+            </div>
+            <div className="quote-text">
+              As our understanding of space advances the opportunity
+              to start a new world becomes ever more possible.
+              Moving home or to another country is already
+              incredibly exciting,. The challenges and problems would be new and hard but the mind
+              boggles at the potential opportunities and what the human race could achieve
+              if we take this next step.
+              <span className="text-highlight">imagine what it would be like to move ç
+              to an entirely different habitat</span>
+            </div>
+            <div className="author-img">
+              <img src={authorImg} alt="" className="authorImg" />
+              <h4>Prof. Lewis Dartnell</h4>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
     </>
 
   );

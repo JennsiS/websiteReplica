@@ -28,6 +28,10 @@ module.exports = {
         sideEffects: true,
       },
       {
+        test: /\.(css)$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
         test: /\.svg$/,
         use: [
           {
