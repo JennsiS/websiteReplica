@@ -5,6 +5,7 @@ import '../css/styles.scss';
 export default function sideNav() {
   function hideMenu() {
     document.getElementById('menu').style.display = 'none';
+    document.getElementById('menu-button').style.display = 'flex';
   }
   return (
     <div className="nav" id="menu">

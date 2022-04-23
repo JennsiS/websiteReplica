@@ -21,6 +21,7 @@ import '../css/styles.scss';
 export default function App() {
   function showMenu() {
     document.getElementById('menu').style.display = 'block';
+    document.getElementById('menu-button').style.display = 'none';
   }
   function showBibliography() {
     document.getElementById('bibliography').style.display = 'block';
@@ -30,11 +31,14 @@ export default function App() {
     <>
       <Menu />
       <Header />
-      <div className="menu-button">
+      <div className="menu-button" id="menu-button">
         <button type="button" onClick={showMenu}>
-          menu
+          <div className="line" />
+          <div className="line" />
+          <div className="line" />
         </button>
       </div>
+
       <div className="black-section">
         <div className="black-container">
           <div className="black-section-text">
@@ -58,6 +62,7 @@ export default function App() {
           </div>
         </div>
       </div>
+
       <div id="ch1" className="div-section">
         <div className="flex-container">
           <div className="ch1-right">
@@ -92,6 +97,7 @@ export default function App() {
           </div>
         </div>
       </div>
+
       <div id="ch2" className="blue-section">
         <div className="container">
           <div className="article-header" id="ch2-header">
@@ -156,9 +162,9 @@ export default function App() {
       <div id="ch3" className="lava-black">
         <div className="section-flex">
           <div className="article-left">
-            <div className="article-scroll">
+            <div className="lava-formation-text">
               <h2>03. CHAPTER THREE</h2>
-              <div className="scrollable-text">
+              <div>
                 <h3>LAVA TUBE FORMATION</h3>
                 <p>
                   Lava flows from volcanic eruptions and becomes channelled into streams.
@@ -237,12 +243,17 @@ export default function App() {
             </div>
           </div>
           <div className="ch1-left caption">
+            <div className="bubbles">
+              <div className="bubble harvesting-bubble" />
+              <div className="bubble hazards-bubble" />
+              <div className="bubble lift-bubble" />
+            </div>
             <img src={surfaceImg} alt="" className="surface-img" />
           </div>
         </div>
       </div>
 
-      <div id="ch5" className="blue-section">
+      <div id="ch5" className="city-section">
         <div className="flex-container">
           <div className="article-left">
             <div className="article-scroll">
