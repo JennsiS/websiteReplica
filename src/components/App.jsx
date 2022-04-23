@@ -15,6 +15,7 @@ import Header from './Header';
 import Quote from './Quote';
 import Menu from './sideNav';
 import Bibliography from './bibliography';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/styles.scss';
 
 export default function App() {
@@ -34,7 +35,6 @@ export default function App() {
           menu
         </button>
       </div>
-
       <div className="black-section">
         <div className="black-container">
           <div className="black-section-text">
