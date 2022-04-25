@@ -11,10 +11,12 @@ import hillarysLogo from '../img/hillarys-logo.svg';
 import fbLogo from '../img/fb.svg';
 import twitterLogo from '../img/tw.svg';
 import whatssapLogo from '../img/wa.svg';
+import lines from '../img/lines.png';
 import Header from './Header';
 import Quote from './Quote';
 import Menu from './sideNav';
 import Bibliography from './bibliography';
+import Modals from './Modals';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/styles.scss';
 
@@ -26,16 +28,39 @@ export default function App() {
   function showBibliography() {
     document.getElementById('bibliography').style.display = 'block';
   }
+  function showHarvesting() {
+    document.getElementById('harvestingModal').style.display = 'block';
+  }
+  function showHazards() {
+    document.getElementById('hazardsModal').style.display = 'block';
+  }
+  function showLift() {
+    document.getElementById('liftModal').style.display = 'block';
+  }
+  function showTemperature() {
+    document.getElementById('temperatureModal').style.display = 'block';
+  }
+  function showFarming() {
+    document.getElementById('farmingModal').style.display = 'block';
+  }
+  function showBreathing() {
+    document.getElementById('breathingModal').style.display = 'block';
+  }
+  function showExercise() {
+    document.getElementById('exerciseModal').style.display = 'block';
+  }
+  function showEnergy() {
+    document.getElementById('energyModal').style.display = 'block';
+  }
 
   return (
     <>
       <Menu />
       <Header />
+
       <div className="menu-button" id="menu-button">
         <button type="button" onClick={showMenu}>
-          <div className="line" />
-          <div className="line" />
-          <div className="line" />
+          <img alt="" src={lines} />
         </button>
       </div>
 
@@ -200,7 +225,7 @@ export default function App() {
           </div>
         </div>
       </div>
-
+      <Modals />
       <div id="ch4" className="div-section">
         <div className="flex-container">
           <div className="ch1-right">
@@ -244,9 +269,15 @@ export default function App() {
           </div>
           <div className="ch1-left caption">
             <div className="bubbles">
-              <div className="bubble harvesting-bubble" />
-              <div className="bubble hazards-bubble" />
-              <div className="bubble lift-bubble" />
+              <button type="button" onClick={showHarvesting}>
+                <div className="bubble harvesting-bubble" />
+              </button>
+              <button type="button" onClick={showHazards}>
+                <div className="bubble hazards-bubble" />
+              </button>
+              <button type="button" onClick={showLift}>
+                <div className="bubble lift-bubble" />
+              </button>
             </div>
             <img src={surfaceImg} alt="" className="surface-img" />
           </div>
@@ -283,6 +314,24 @@ export default function App() {
             </div>
           </div>
           <div className="city img-ch5">
+            <div className="bubbles">
+              <button type="button" onClick={showTemperature}>
+                <div className="bubble temperature-bubble" />
+              </button>
+              <button type="button" onClick={showFarming}>
+                <div className="bubble farming-bubble" />
+              </button>
+              <button type="button" onClick={showBreathing}>
+                <div className="bubble breathing-bubble" />
+              </button>
+              <button type="button" onClick={showExercise}>
+                <div className="bubble exercise-bubble" />
+              </button>
+              <button type="button" onClick={showEnergy}>
+                <div className="bubble energy-bubble" />
+              </button>
+            </div>
+
             <img src={cityImg} alt="" className="city-img" />
           </div>
         </div>

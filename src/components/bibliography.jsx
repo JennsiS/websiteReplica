@@ -3,7 +3,7 @@ import closeImg from '../img/close.svg';
 import '../css/styles.scss';
 import authorImg from '../img/quote-roundel.jpg';
 
-export default function sideNav() {
+export default function bibliography() {
   function hideResources() {
     document.getElementById('bibliography').style.display = 'none';
   }
