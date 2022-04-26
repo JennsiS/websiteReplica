@@ -189,7 +189,7 @@ export default function sideNav() {
           </div>
           <div className="modal-left" style={{ backgroundImage: `url(${park})` }} />
           <div className="text-right">
-            <h3>FARMING</h3>
+            <h3>BREATHING</h3>
             <div className="text-content">
               <p>
                 There’s no atmosphere on the Moon so we would need to manufacture the oxygen we

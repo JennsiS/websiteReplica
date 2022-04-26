@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import '../css/styles.scss';
 import quoteImg from '../img/quote-marks.svg';
 import authorImg from '../img/quote-roundel.jpg';
+import border from '../img/quote-border.svg';
 
 export default function Quote() {
   useEffect(() => {
@@ -15,6 +16,7 @@ export default function Quote() {
       <div className="container">
         <div className="quote-box">
           <div className="quote-marks" data-aos="fade-up">
+            <img src={border} alt="" className="circle" />
             <img src={quoteImg} alt="" className="quote-img" />
           </div>
           <div className="quote-text" data-aos="fade-up">
