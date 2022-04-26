@@ -6,7 +6,8 @@ The objective of this project is to replicate a website with the purpose of appl
 
 # Website Reference
 #### Moontopia 
-[link :link:](https://www.hillarys.co.uk/static/moontopia/)
+[Moontopia original website :link:](https://www.hillarys.co.uk/static/moontopia/)
+
 ![Moontopia](screenOriginal.jpg)
 
 # How to use? :arrow_right:
@@ -17,20 +18,24 @@ The objective of this project is to replicate a website with the purpose of appl
 **OR**
 
 Visit the next link:
-    [moontopia]() 
+    [moontopia replica :link:]() 
 
 :warning:(this link will be active for a limited time):warning:
 
 
 # Tools :wrench:
-- SASS
-- AOS animation
-- Webpack
-- Babel
-- Eslint (airbnb rules) v^8.13.0
-- Node.js v16.14.2
+* Sass (v^1.50.1)
+* AOS animation
+* Webpack (v^5.72.0)
+* Babel
+* Eslint (v^8.13.0)
+* Node.js (v16.14.2)
+* Nginx
+* Prettier (v^2.6.2)
 
-# Disclaimer
+> For more information about dependencies look at [package.json](/package.json)
+
+# Disclaimer :bangbang:
 This project was made for educational purposes. 
 
 # References
