@@ -1060,22 +1060,65 @@ img {
     transition: transform 0.6s ease;
 }
 
-.harvesting-bubble:hover::after{
-    transform: scale(2);
+.harvesting-bubble:hover::before {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  .harvesting-bubble:hover::after {
     content: "HARVESTING";
-    font-weight: 10;
-    font-size: 10px;
-
+    font-weight: 700;
+    font-size: .4rem;
+  }
+.harvesting-bubble:hover{
+    transform: scale(2.5);
+    z-index: 1000;
 }
 
 .hazards-bubble{
     top: 83%;
     left: 75%;
 }
+
+.hazards-bubble:hover{
+    transform: scale(2.5);
+    z-index: 1000;
+}
+
+.hazards-bubble:hover::before {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+.hazards-bubble:hover::after {
+    content: "HAZARDS";
+    font-weight: 700;
+    font-size: .4rem;
+}
+
 .lift-bubble{
     top: 8%;
     left: 70%;
 }
+
+.lift-bubble:hover{
+    transform: scale(2.5);
+    z-index: 1000;
+}
+
+.lift-bubble:hover::before {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.lift-bubble:hover::after {
+    content: "LIFT";
+    font-weight: 700;
+    font-size: .4rem;
+}
+
+
 
 .modal{
     display: none; /* Hidden by default */
@@ -1159,10 +1202,45 @@ img {
     top: 40%;
     left: 27%;
 }
+.temperature-bubble:hover{
+    transform: scale(2.5);
+    z-index: 1000;
+}
+
+.temperature-bubble:hover::before {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.temperature-bubble:hover::after {
+    content: "TEMPERATURE";
+    font-weight: 700;
+    font-size: .4rem;
+}
+
+
 
 .farming-bubble{
     top: 49%;
     left: 56%;
+}
+
+.farming-bubble:hover{
+    transform: scale(2.5);
+    z-index: 1000;
+}
+
+.farming-bubble:hover::before {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.farming-bubble:hover::after {
+    content: "FARMING";
+    font-weight: 700;
+    font-size: .4rem;
 }
 
 .breathing-bubble{
@@ -1170,14 +1248,65 @@ img {
     left: 67%;
 }
 
+.breathing-bubble:hover{
+    transform: scale(2.5);
+    z-index: 1000;
+}
+
+.breathing-bubble:hover::before {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.breathing-bubble:hover::after {
+    content: "BREATHING";
+    font-weight: 700;
+    font-size: .4rem;
+}
+
 .energy-bubble{
     top: 75%;
     left: 23%;
 }
 
+.energy-bubble:hover{
+    transform: scale(2.5);
+    z-index: 1000;
+}
+
+.energy-bubble:hover::before {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.energy-bubble:hover::after {
+    content: "ENERGY";
+    font-weight: 700;
+    font-size: .4rem;
+}
+
 .exercise-bubble{
     top: 62%;
     left: 55%;
+}
+
+.exercise-bubble:hover{
+    transform: scale(2.5);
+    z-index: 1000;
+}
+
+.exercise-bubble:hover::before {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.exercise-bubble:hover::after {
+    content: "EXERCISE";
+    font-weight: 700;
+    font-size: .4rem;
 }
 
 .awwwardsTag{
