@@ -17,7 +17,6 @@ import Quote from './Quote';
 import Menu from './sideNav';
 import Bibliography from './bibliography';
 import Modals from './Modals';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/styles.scss';
 
 export default function App() {
