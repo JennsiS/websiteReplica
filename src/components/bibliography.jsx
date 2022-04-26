@@ -5,7 +5,9 @@ import authorImg from '../img/quote-roundel.jpg';
 
 export default function bibliography() {
   function hideResources() {
-    document.getElementById('bibliography').style.display = 'none';
+    // document.getElementById('bibliography').style.display = 'none';
+    document.getElementById('bibliography').style.opacity = '0';
+    document.getElementById('bibliography').style.bottom = '-100%';
   }
   return (
     <div className="bibliography-container" id="bibliography">

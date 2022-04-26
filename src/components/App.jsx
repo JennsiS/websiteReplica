@@ -22,11 +22,14 @@ import '../css/styles.scss';
 
 export default function App() {
   function showMenu() {
-    document.getElementById('menu').style.display = 'block';
+    // document.getElementById('menu').style.display = 'block';
     document.getElementById('menu-button').style.display = 'none';
+    document.getElementById('menu').style.right = '0';
   }
   function showBibliography() {
-    document.getElementById('bibliography').style.display = 'block';
+    // document.getElementById('bibliography').style.display = 'block';
+    document.getElementById('bibliography').style.opacity = '1';
+    document.getElementById('bibliography').style.bottom = '0';
   }
   function showHarvesting() {
     document.getElementById('harvestingModal').style.display = 'block';
