@@ -12,15 +12,15 @@ The objective of this project is to replicate a website with the purpose of appl
 
 # How to use? :arrow_right:
 
-1. Download bundle folder 
-2. Open index.html file in a web browser
+Visit the next link:
+    [moontopia replica :link:](http://3.141.59.78:3167/) 
+
+:warning:(this link will be active for a limited time):warning:
 
 **OR**
 
-Visit the next link:
-    [moontopia replica :link:]() 
-
-:warning:(this link will be active for a limited time):warning:
+1. Download bundle folder 
+2. Open index.html file in a web browser
 
 
 # Tools :wrench:
