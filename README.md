@@ -1,4 +1,4 @@
-# Website Replica - Project 1 
+# Website Replica 
 The objective of this project is to replicate a website with the purpose of applying basic concepts of the use of React, ESlint, Babel, Webpack and CSS/SASS, replicating the elements, animations and styles of the original website.
 
 ### Author:
